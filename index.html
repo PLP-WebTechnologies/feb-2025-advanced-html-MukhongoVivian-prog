@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> An ordered list with roman numbers</h1>
+    <p>The following are tracks and technoogies which I have learnt</p>
+    <ol type="i">
+        <li>Python for Backend Development</li>
+        <li>Laravel PHP </li>
+        <li>Software Engineering</li>
+        <li>Web Development</li>
+        <li>Web Design</li>
+    </ol>
+    <h2>An External image</h2>
+    <img src="italy-mountains-dawn-daybreak-147411.jpeg" alt="Daybreak image" width="300" height="300">
+   
+    <h2>Creating a Table</h2>
+    <!-- A table with 5 records -->
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Mary</td>
+                <td>123 Main, City</td>
+                <td>0876542643</td>
+                <td>johnMary@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jane Ann</td>
+                <td>456 60400, Chuka</td>
+                <td>0116754324</td>
+                <td>janeann@yahoocom</td>
+            </tr>
+            <tr>
+                <td>Mike Thuo</td>
+                <td>789 Oak San, City</td>
+                <td>0784546353</td>
+                <td>mikedthuo@outlook.com</td>
+            </tr>
+            <tr>
+                <td>Ruth Apolo</td>
+                <td>276 50200, Chara</td>
+                <td>0745326576</td>
+                <td>ruth@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Vivian Naliaka</td>
+                <td>178 30900 Kapwali</td>
+                <td>0798653423</td>
+                <td>vivian@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Creating a Form</h2>
+    <!-- A registration Form -->
+     
+        <section>
+            <h2>Registration Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <br><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <br><br>
+                
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <br><br>
+                
+                <!-- Dropdown -->
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="kenya">Kenya</option>
+                    <option value="uganda">Uganda</option>
+                    <option value="nigeria">Nigeria</option>
+                </select>
+                <br><br>
+                
+                <!-- Radio Buttons -->
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+                <br><br>
+                
+                <!-- Checkboxes -->
+                <label>Interests:</label>
+                <input type="checkbox" id="coding" name="interests" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="reading" name="interests" value="reading">
+                <label for="reading">Reading</label>
+                <input type="checkbox" id="traveling" name="interests" value="traveling">
+                <label for="traveling">Traveling</label>
+                <br><br>
+                
+                <button type="submit">Register</button>
+            </form>
+        </section>
+        </section>
+    
+        <!-- Multimedia Elements -->
+        <section>
+            <h2>Audio and Video</h2>
+            <h3>Audio Element</h3>
+            <audio controls>
+                <source src="sample-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            
+            <h3>Video Element</h3>
+            <video width="500" controls>
+                <source src="https://youtube.com/shorts/yYk9qSXCrFE?feature=share" type="video/mp4">
+                This is my short video
+            </video>
+        
+     </form>
+</body>
+</html>
